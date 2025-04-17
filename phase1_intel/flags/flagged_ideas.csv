@@ -1,0 +1,3 @@
+item_id,description,linked_phase,status
+F001,Streamlit Tool Packager assistant pending folder generation,P1,in_progress
+F002,Packaging structure for assistants not yet standardized,P1,concept

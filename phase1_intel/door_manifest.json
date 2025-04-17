@@ -1,0 +1,20 @@
+{
+    "primary_doors": [
+        "Assistant",
+        "Prompt",
+        "Shortcut",
+        "Tool",
+        "Script",
+        "Table",
+        "Deployment",
+        "Blueprint"
+    ],
+    "unseen_doors": [
+        "Role-to-Role Chain",
+        "Execution Layer Mapping",
+        "Lifecycle Trigger",
+        "Meta System Reflection"
+    ],
+    "routes_built": [],
+    "last_updated": "2025-04-17T09:11:22.837593"
+}

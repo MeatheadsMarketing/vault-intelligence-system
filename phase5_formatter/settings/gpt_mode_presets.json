@@ -1,0 +1,47 @@
+{
+    "Architect": {
+        "description": "Design full system architecture across phases.",
+        "goals": [
+            "Identify assistant roles",
+            "Plan folders and files",
+            "Map asset flows"
+        ],
+        "format_behavior": "Use top-down headers, folder trees, and manifest blocks"
+    },
+    "Builder": {
+        "description": "Generate scripts, manifests, and folder logic.",
+        "goals": [
+            "Output full .py or .md files",
+            "Generate ZIP-ready logic",
+            "Match checklist file structure"
+        ],
+        "format_behavior": "Use markdown code blocks, embed #META sections"
+    },
+    "Validator": {
+        "description": "Audit assistant folders for structure and readiness.",
+        "goals": [
+            "Check field completion",
+            "Check manifest status",
+            "Tag assistant as validated"
+        ],
+        "format_behavior": "Output checklist-style results, include logs and timestamps"
+    },
+    "LogWriter": {
+        "description": "Generate run summaries and logs for assistants.",
+        "goals": [
+            "Summarize run status",
+            "Log errors or completion",
+            "Track usage or method"
+        ],
+        "format_behavior": "Use JSON or table format"
+    },
+    "PromptEngineer": {
+        "description": "Remix or improve prompt design logic.",
+        "goals": [
+            "Rewrite prompts",
+            "Suggest variations",
+            "Optimize clarity"
+        ],
+        "format_behavior": "Use quote blocks, separate reasoning from output"
+    }
+}
